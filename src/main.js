@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import TestComponent from './TestComponent';
+import ListComponent from './ListComponent';
  
 document.addEventListener('DOMContentLoaded', function() {
-  ReactDOM.render(<TestComponent/>, document.getElementById('entry'));
+  ReactDOM.render(<ListComponent/>, document.getElementById('entry'));
 });
