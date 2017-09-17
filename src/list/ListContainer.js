@@ -1,6 +1,6 @@
 import React from 'react';
 import ListItem from './ListItem';
-import withRatings from '../hocs/withRatings';
+import { withRatings } from '../hocs';
 
 /**
 * A List Component container.
