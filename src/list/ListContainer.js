@@ -1,5 +1,6 @@
 import React from 'react';
 import ListItem from './ListItem';
+import withRatings from '../hocs/withRatings';
 
 /**
 * A List Component container.
@@ -17,4 +18,4 @@ class ListContainer extends React.Component {
 
 }
 
-export default ListContainer;
+export default withRatings(ListContainer);
